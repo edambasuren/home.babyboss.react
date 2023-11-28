@@ -1,0 +1,19 @@
+
+/*
+remove all default margins and padding to make consistent view in both explorer and firefox 
+*/
+* {margin: 0; padding: 0;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,div,img,blockquote,fieldset,input,label,address,dd,dl,
+img {border: none;}
+ul, dt, dd, ul, li {list-style-type: none;}
+a {text-decoration: none;}
+
+/**************     all     **************/
+body {text-align: center;background: url('images/hd-bg.gif') repeat-x top;width: 100%;}
+
+/**************     common classes     **************/
+.small {
+  font-family: times;
+  font-size: 11px;
+  color: #5555f5;
+}
