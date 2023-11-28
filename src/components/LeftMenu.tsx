@@ -1,7 +1,10 @@
 import { ReactElement, FC, useState, MouseEvent } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
  
 const LeftMenu: FC<any> = (): ReactElement => {
+
+  const { i18n, t } = useTranslation();
 
   const [source,setSource] = useState("images/bboss_0.jpg");
   const navigate = useNavigate();
@@ -20,24 +23,24 @@ const LeftMenu: FC<any> = (): ReactElement => {
     <div id='left'>
 
       <ul id='left_menu'>
-        <li><a href='index.php'>Home</a></li>
-        <li><a href='shay.php'>Shay</a></li>
-        <li><a href='bayar.php'>Bayar</a></li>
-        <li><a href='munk.php'>Munk</a></li>
-        <li><a href='family_photo.php'>Family Pictures</a></li>
+        <li><a href='index.php'>{t('Home')}</a></li>
+        <li><a href='shay.php'>{t('Shay')}</a></li>
+        <li><a href='bayar.php'>{t('Bayar')}</a></li>
+        <li><a href='munk.php'>{t('Munk')}</a></li>
+        <li><a href='family_photo.php'>{t('FamilyPictures')}</a></li>
 
-	      <li id='album'><img src='images/closed.gif' />Family album</li>
+	      <li id='album'><img src='images/closed.gif' />{t('FamilyAlbum')} </li>
         <ul id='subalbum'>
-          <li><a href='family_photo_mongolia.php'>Mongolia</a></li>
-          <li><a href='family_photo_russia.php'>Russia</a></li>
-          <li><a href='family_photo_usa.php'>USA</a></li>
-          <li><a href='family_photo_other.php'>Other</a></li>
+          <li><a href='family_photo_mongolia.php'>{t('Mongolia')}</a></li>
+          <li><a href='family_photo_russia.php'>{t('Russia')}</a></li>
+          <li><a href='family_photo_usa.php'>{t('USA')}</a></li>
+          <li><a href='family_photo_other.php'>{t('Other')}</a></li>
         </ul>
 	
-        <li><a href='family_events.php'>Family events</a></li>
-        <li><a href='friends.php'>Friends</a></li>
-        <li><a href='khulan.php'>Khulan</a></li>
-        <li><a href='naadam_2007.php'>Naadam 2007</a></li>
+        <li><a href='family_events.php'>{t('FamilyEvents')}</a></li>
+        <li><a href='friends.php'>{t('Friends')}</a></li>
+        <li><a href='khulan.php'>{t('Khulan')}</a></li>
+        <li><a href='naadam_2007.php'>{t('Naadam2007')}</a></li>
 	      <li className='last'><a> &nbsp; </a></li>
       </ul>
 
@@ -59,7 +62,7 @@ const LeftMenu: FC<any> = (): ReactElement => {
       <img id='ball' src={source} useMap='#map1' />
 
       <div className='small' >
-        Updated on May 1, 2008
+        {t('UpdatedOn')}
       </div>
     </div>
   );
