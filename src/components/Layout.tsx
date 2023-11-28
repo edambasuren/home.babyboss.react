@@ -14,11 +14,7 @@ const Layout: FC<PropsWithChildren> = () => {
 
           <LeftMenu />
 
-          <div className='main'>
-
-            <Outlet />
-
-          </div>
+          <Outlet />
 
         </div>
       </div>

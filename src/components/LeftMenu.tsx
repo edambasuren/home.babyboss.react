@@ -1,6 +1,7 @@
 import { ReactElement, FC, useState, MouseEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import "../i18n";
  
 const LeftMenu: FC<any> = (): ReactElement => {
 
