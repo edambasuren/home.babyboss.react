@@ -63,7 +63,12 @@ i18n
           /* bayar */
           WelcomeToBayarsPage: 'Welcome to Bayar\'s page',
           MyNameIsBayar: 'My name is Bayar. I am physicist. I like teaching and programming. Currently this page is under development. Please come back soon for more information.',
-            
+          /* munk */
+          WelcomeToMunksPage: 'Welcome to Munk\'s page',
+          MyNameIsMunk: 'My name is Munk. My hobby is bicycling. I also like to play soccer.',
+          SomeJavaScriptExamples: 'Some JavaScript Examples',
+          ClickToSeeScripts: 'Click to see scripts',
+
 
 
         },
@@ -117,6 +122,11 @@ i18n
           PasswordProtected: 'пасвордоор хамгаалалттай',
           WelcomeToBayarsPage: 'Баярын хуудсанд тавтай морилоно уу.',
           MyNameIsBayar: 'Миний нэр Баяр. Би физикч. Би багшлах ба програмчлах дуртай. Энэ хуудас одоохондоо дуусаагүй байгаа. Дараа дахин ирж үзнэ үү.',
+          WelcomeToMunksPage: 'Мөнхөөгийн хуудсанд тавтай морилоно уу.',
+          MyNameIsMunk: 'Миний нэр Мөнхөө. Би дугуй унах дуртай. Би мөн хөл бөмбөг тоглох дуртай.',
+          SomeJavaScriptExamples: 'Зарим Жаваскрипт Жишээнүүд',
+          ClickToSeeScripts: 'Скриптүүд харахий тулд товч дарна уу',
+
 
 
         },

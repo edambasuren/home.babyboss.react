@@ -17,13 +17,13 @@ const Footer: FC<any> = (): ReactElement => {
         </div>
         <br />
 
-          <table id="footer" style={tableStyle}>
+          <table id="footer" style={tableStyle}><tbody>
             <tr>
               <td align="center"><img src='images/apache2.gif' /></td>
               <td align="center"><img src='images/php.gif' /></td>
               <td align="center"><img src='images/mysql.gif' /></td>
             </tr>
-          </table>
+          </tbody></table>
           <br />
 
       </div>

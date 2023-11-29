@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 const Bayar: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
-  //align='right'
 
   return (
     <div className='main'>

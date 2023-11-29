@@ -1,0 +1,84 @@
+﻿<HTML>
+<HEAD>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+   <title>Babyboss.com</title>
+<SCRIPT language=JavaScript>
+
+  function preload() 
+  { 
+      a1 = new Image(); 
+      a1.src = "images/soccer_1.jpg"; 
+      a2 = new Image(); 
+      a2.src = "images/soccer_2.jpg"; 
+      a3 = new Image(); 
+      a3.src = "images/soccer_3.jpg"; 
+      a4 = new Image(); 
+      a4.src = "images/soccer_4.jpg"; 
+      a5 = new Image(); 
+      a5.src = "images/soccer_5.jpg"; 
+      a6 = new Image(); 
+      a6.src = "images/soccer_6.jpg"; 
+      a7 = new Image(); 
+      a7.src = "images/soccer_7.jpg"; 
+      a8 = new Image(); 
+      a8.src = "images/soccer_8.jpg"; 
+      a9 = new Image(); 
+      a9.src = "images/soccer_9.jpg"; 
+      a10 = new Image(); 
+      a10.src = "images/soccer_10.jpg"; 
+      a11 = new Image(); 
+      a11.src = "images/soccer_11.jpg";
+      a12 = new Image(); 
+      a12.src = "images/soccer_12.jpg";
+      window.setTimeout("mymove();",500);
+  }
+
+  var x=100;
+  var imgNum=1;
+  var ballobject=null;
+
+  function getobj(id) {
+    var i, x;
+    x= document[id];
+    if (!x && document.all) x= document.all[id];
+    for (i=0; !x && i<document.forms.length; i++) x= document.forms[i][id];
+    if (!x && document.getElementById) x= document.getElementById(id);
+    return(x);
+  }
+  function mymove() {
+     ballobject=getobj('ball');
+     if ( x >= 600 ) {
+       x = 100;
+     }else{
+       x += 23.3;
+     }
+     if (imgNum >= 12) {
+       imgNum = 1;
+     }else{
+       imgNum += 1;
+     }
+     ballobject.style.left = x;
+     ballobject.src = "images/soccer_" + imgNum + ".jpg";
+     window.setTimeout("mymove();",150);
+  }
+
+</SCRIPT>
+</HEAD>
+
+<BODY onload="preload();" text="#ffffff" bgcolor="#05BA2B">
+<font face="arial" size=5 >
+<H1>
+Munkhsoyol Erdenebayar 
+</H1>
+
+<hr>
+
+
+
+
+<img  id='ball' src='images/soccer_1.jpg' style='position:absolute; left:100; top:200;'>
+
+
+</font>
+</BODY>
+</HTML>

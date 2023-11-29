@@ -4,9 +4,9 @@ import { ReactElement, FC, useEffect, useState } from "react";
 
 const Jseyes: FC<any> = (): ReactElement => {
 
-	let main= { img:"jseyes/jseyes.gif", w:150, h:150 };
-  let eye1= { img:"jseyes/jseyeblue.gif", w:21, h:29, x:46,  y:58, xr:7, yr:17 };
-  let eye2= { img:"jseyes/jseyeblue.gif", w:21, h:29, x:102, y:58, xr:7, yr:17 };
+	let main= { img:"/jseyes/jseyes.gif", w:150, h:150 };
+  let eye1= { img:"/jseyes/jseyeblue.gif", w:21, h:29, x:46,  y:58, xr:7, yr:17 };
+  let eye2= { img:"/jseyes/jseyeblue.gif", w:21, h:29, x:102, y:58, xr:7, yr:17 };
   let follow= 100; // %
   // Private variables
   let trail= { x:0, y:0 };
@@ -67,7 +67,7 @@ const Jseyes: FC<any> = (): ReactElement => {
         <img src={eye2.img} style={{width:eye2.w+"px",height:eye2.h+"px",}} />
       </div>
 
-      <img src="jseyes/jseyes.gif" style={{width:main.w+"px",height:main.h+"px",}} />
+      <img src={main.img} style={{width:main.w+"px",height:main.h+"px",}} />
 
     </div>
   );

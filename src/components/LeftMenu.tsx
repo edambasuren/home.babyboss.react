@@ -7,7 +7,7 @@ const LeftMenu: FC<any> = (): ReactElement => {
 
   const { i18n, t } = useTranslation();
 
-  const [source, setSource] = useState("images/bboss_0.jpg");
+  const [source, setSource] = useState("/images/bboss_0.jpg");
 
   const navigate = useNavigate();
 
@@ -18,7 +18,7 @@ const LeftMenu: FC<any> = (): ReactElement => {
 
   const onMouseOverHandler = (e: MouseEvent<HTMLAreaElement>, t: number) => {
     e.preventDefault();
-    setSource('images/bboss_' + t + '.jpg');
+    setSource('/images/bboss_' + t + '.jpg');
   };
 
   return (
@@ -31,7 +31,7 @@ const LeftMenu: FC<any> = (): ReactElement => {
         <li><a href='/munk'>{t('Munk')}</a></li>
         <li><a href='/family_photo'>{t('FamilyPictures')}</a></li>
 
-	      <li id='album'><img src='images/closed.gif' />{t('FamilyAlbum')} </li>
+	      <li id='album'><img src='/images/closed.gif' />{t('FamilyAlbum')} </li>
         <ul id='subalbum'>
           <li><a href='family_photo_mongolia.php'>{t('Mongolia')}</a></li>
           <li><a href='family_photo_russia.php'>{t('Russia')}</a></li>

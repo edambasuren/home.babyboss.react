@@ -16,7 +16,7 @@ const Header: FC<any> = (): ReactElement => {
     <div id='top_layer'>
 
       <div id='logo'>
-        <img src= 'images/babyboss.jpg' width='264' height='55' />
+        <img src= '/images/babyboss.jpg' width='264' height='55' />
       </div>
 
       <div id='toptitle'>

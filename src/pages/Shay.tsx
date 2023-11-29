@@ -1,6 +1,5 @@
 import { ReactElement, FC } from "react";
 import { useTranslation } from "react-i18next";
-
 import Jseyes from "../components/Jseyes";
 
 const Shay: FC<any> = (): ReactElement => {
@@ -14,10 +13,10 @@ const Shay: FC<any> = (): ReactElement => {
         {t('WelcomeToShaysPage')}
       </div>
 
-      <table align="center">
+      <table align="center"><tbody>
       <tr>
 	      <td width="129">
-          <img src="pictures/ishe.jpg" width="129" height="129" />
+          <img src="/pictures/ishe.jpg" width="129" height="129" />
         </td>
 	      <td align="center" valign="top">
           <br />
@@ -39,7 +38,7 @@ const Shay: FC<any> = (): ReactElement => {
           <Jseyes />
         </td>
       </tr>
-      </table>
+      </tbody></table>
 
       <h2>{t('Resume')}</h2>
       <ul>
