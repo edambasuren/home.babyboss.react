@@ -60,6 +60,11 @@ i18n
           Forum: 'Forum',
           FrontEnd: '(front end)',
           PasswordProtected: 'password protected',
+          /* bayar */
+          WelcomeToBayarsPage: 'Welcome to Bayar\'s page',
+          MyNameIsBayar: 'My name is Bayar. I am physicist. I like teaching and programming. Currently this page is under development. Please come back soon for more information.',
+            
+
 
         },
       },
@@ -110,6 +115,8 @@ i18n
           Forum: 'Форум',
           FrontEnd: '',
           PasswordProtected: 'пасвордоор хамгаалалттай',
+          WelcomeToBayarsPage: 'Баярын хуудсанд тавтай морилоно уу.',
+          MyNameIsBayar: 'Миний нэр Баяр. Би физикч. Би багшлах ба програмчлах дуртай. Энэ хуудас одоохондоо дуусаагүй байгаа. Дараа дахин ирж үзнэ үү.',
 
 
         },
