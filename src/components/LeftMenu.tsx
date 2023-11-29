@@ -7,7 +7,8 @@ const LeftMenu: FC<any> = (): ReactElement => {
 
   const { i18n, t } = useTranslation();
 
-  const [source,setSource] = useState("images/bboss_0.jpg");
+  const [source, setSource] = useState("images/bboss_0.jpg");
+
   const navigate = useNavigate();
 
   const onClickHandler = (e: MouseEvent<HTMLAreaElement>, loc: string) => {
@@ -24,11 +25,11 @@ const LeftMenu: FC<any> = (): ReactElement => {
     <div id='left'>
 
       <ul id='left_menu'>
-        <li><a href='index.php'>{t('Home')}</a></li>
-        <li><a href='shay.php'>{t('Shay')}</a></li>
-        <li><a href='bayar.php'>{t('Bayar')}</a></li>
-        <li><a href='munk.php'>{t('Munk')}</a></li>
-        <li><a href='family_photo.php'>{t('FamilyPictures')}</a></li>
+        <li><a href='/'>{t('Home')}</a></li>
+        <li><a href='/shay'>{t('Shay')}</a></li>
+        <li><a href='/bayar'>{t('Bayar')}</a></li>
+        <li><a href='/munk'>{t('Munk')}</a></li>
+        <li><a href='/family_photo'>{t('FamilyPictures')}</a></li>
 
 	      <li id='album'><img src='images/closed.gif' />{t('FamilyAlbum')} </li>
         <ul id='subalbum'>
