@@ -128,6 +128,20 @@ i18n
           LibertyIslandNewYorkJuly26_2003: "Liberty Island, New York, July 26 2003",
           DowntownNewYorkJuly26_2003: "Downtown, New York, July 26 2003",
 
+          InOtherCountries: 'In Other Countries',
+          Italy: "Italy",
+          BayarAndPetreTriesteItaly1994: "Bayar and Petre, Trieste, Italy 1994",
+          MongolGerForSaleTriesteItaly1995: "\"Mongol ger for sale\", Trieste, Italy 1995",
+          TriesteItaly1994: "Trieste, Italy 1994",
+          VeniceItaly1995: "Venice, Italy 1995",
+          MiramareCastleTriesteItaly1994: "Miramare Castle, Trieste, Italy 1994",
+          At_ICTP_TriesteItaly1994: "At ICTP, Trieste, Italy 1994",
+          HomeTriesteItaly1994: "Home, Trieste, Italy 1994",
+          DiplomaCourseICTP_TriesteItaly1994: "Diploma Course, ICTP, Trieste, Italy 1994",
+          Austria: "Austria",
+          AtJargalHomeViennaAustria1994:"At Jargal\' home, Vienna, Austria, 1994",
+
+
 
 
         },
@@ -235,6 +249,18 @@ i18n
           NewYorkFebruary2003: "Ню Йорк, 2003 оны 2 сар",
           LibertyIslandNewYorkJuly26_2003: "Эрх Чөлөөний Арал, Ню Йорк, 2003 оны 7 сарын 26",
           DowntownNewYorkJuly26_2003: "Хотын төв, Ню Йорк, 2003 оны 7 сарын 26",
+          InOtherCountries: 'Бусад Оронд',
+          Italy: "Итали",
+          BayarAndPetreTriesteItaly1994: "Баяр Петрээ хоёр, Триест, Итали 1994",
+          MongolGerForSaleTriesteItaly1995: "Монгол гэр, Триест, Итали 1995",
+          TriesteItaly1994: "Триест, Итали 1994",
+          VeniceItaly1995: "Венеци, Итали 1995",
+          MiramareCastleTriesteItaly1994: "Мирамар Ордон, Триест, Итали 1994",
+          At_ICTP_TriesteItaly1994: "Триест, Итали 1994",
+          HomeTriesteItaly1994: "Гэрийн гадаа, Триест, Итали 1994",
+          DiplomaCourseICTP_TriesteItaly1994: "Ангийхан, Триест, Итали 1994",
+          Austria: "Австри",
+          AtJargalHomeViennaAustria1994: "Жаргалынд, Виен, Австри, 1994",
 
 
         },

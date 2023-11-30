@@ -7,41 +7,31 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("family", "label.jpg");
+  let album = new AlbumData("other", "label.jpg");
   let pg;
 
-  pg = album.addPage(t('Shay'),45,10,"#0ccdc1");
-  pg.addPicture("shay1.jpg", t('ShayIrkutsk1982'));
-  pg.addPicture("shay2.jpg", t('ShayUlanbaatar10YearOld'));
-  pg.addPicture("shay3.jpg", t('ShayNairamdalSummerCamp1975'));
-  pg.addPicture("shay4.jpg", t('Shay3YearOld'));
+  pg = album.addPage(t('Italy'),45,10,"blue",18);
+  pg.addPicture("italy1.jpg", t('BayarAndPetreTriesteItaly1994'));
+  pg.addPicture("italy2.jpg", t('VeniceItaly1995'));
+  pg.addPicture("italy3.jpg", t('VeniceItaly1995'));
+  pg.addPicture("italy4.jpg", t('MongolGerForSaleTriesteItaly1995'));
+  pg.addPicture("italy5.jpg", t('TriesteItaly1994'));
+  pg.addPicture("italy6.jpg", t('VeniceItaly1995'));
+  pg.addPicture("italy7.jpg", t('MiramareCastleTriesteItaly1994'));
+  pg.addPicture("italy8.jpg", t('At_ICTP_TriesteItaly1994'));
+  pg.addPicture("italy9.jpg", t('HomeTriesteItaly1994'));
+  pg.addPicture("italy10.jpg", t('DiplomaCourseICTP_TriesteItaly1994'));
 
-  pg = album.addPage(t('Bayar'),45,10,"#0ccdc1");
-  pg.addPicture("bayar1.jpg", t('Bayar1982'));
-  pg.addPicture("bayar2.jpg", t('Bayar1YearOld'));
-  pg.addPicture("bayar3.jpg", t('Bayar4YearOld'));
-  pg.addPicture("bayar4.jpg", t('BayarMoscow7YearOld'));
-
-  pg = album.addPage(t('Munk'),45,10,"#0ccdc1");
-  pg.addPicture("munk1.jpg", t('Munk2004'));
-  pg.addPicture("munk2.jpg", t('MunkMongolia3YearOld'));
-  pg.addPicture("munk3.jpg", t('Munk1YearOld'));
-  pg.addPicture("munk4.jpg", t('MunkSyracuse10YearOld'));
-
-  pg = album.addPage(t('ShaysParents'),45,10,"#0ccdc1");
-  pg.addPicture("shay_parents1.jpg", t('ShaysMom'));
-  pg.addPicture("shay_parents2.jpg", t('ShaysDad'));
-
-  pg = album.addPage(t('BayarsParents'),45,10,"#0ccdc1");
-  pg.addPicture("bayar_parents1.jpg", t('BayarsParents'));
-  pg.addPicture("bayar_parents2.jpg", t('BayarsMom'));
-  pg.addPicture("bayar_parents3.jpg", t('BayarsDad'))
+  pg = album.addPage(t('Austria'),45,10,"blue",18);
+  pg.addPicture("austria1.jpg", t('AtJargalHomeViennaAustria1994'));
+  pg.addPicture("austria2.jpg", t('AtJargalHomeViennaAustria1994'));
+  pg.addPicture("austria3.jpg", t('AtJargalHomeViennaAustria1994'));
 
 return (
     <div id='main_album' className='main'>
 
       <div id="title">
-        {t('FamilyPictures')}
+        {t('InOtherCountries')}
       </div>
 
       <hr  color = "#000077" style={{width:"100%"}} />
