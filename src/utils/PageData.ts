@@ -17,9 +17,9 @@ class PageData{
     public dir: string, 
     public label_img: string, 
     public label: string,
-    public h: number, 
-    public w: number, 
-    public c: string, 
+    public label_h: number, 
+    public label_w: number, 
+    public label_color: string, 
     public size: number
   ){
   }

@@ -7,24 +7,24 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("mongolia", "label.jpg");
+  let album = new AlbumData("mongolia", "label.jpg","#f7f755", 16);
   let pg;
 
-  pg = album.addPage(t('Family'),45,5,"#f7f755",16);
+  pg = album.addPage(t('Family'),45,5);
   pg.addPicture("family1.jpg", '');
   pg.addPicture("family2.jpg", '');
   pg.addPicture("family3.jpg", '');
   pg.addPicture("family4.jpg", '');
 
-  pg = album.addPage(t('Bayangol'),45,5,"#f7f755",16);
-  pg.addPicture("bayangol1.jpg", t('Bayar1982'));
-  pg.addPicture("bayangol2.jpg", t('Bayar1YearOld'));
-  pg.addPicture("bayangol3.jpg", t('Bayar4YearOld'));
+  pg = album.addPage(t('Bayangol'),45,5);
+  pg.addPicture("bayangol1.jpg", '');
+  pg.addPicture("bayangol2.jpg", '');
+  pg.addPicture("bayangol3.jpg", '');
 
-  pg = album.addPage(t('BataaOyunFamily'),70,5,"#f7f755",16);
+  pg = album.addPage(t('BataaOyunFamily'),70,5);
   pg.addPicture("bataa1.jpg", '');
 
-  pg = album.addPage(t('BaatarAriunaaFamily'),70,5,"#f7f755",16);
+  pg = album.addPage(t('BaatarAriunaaFamily'),70,5);
   pg.addPicture("baatar1.jpg", '');
   pg.addPicture("baatar2.jpg", '');
   pg.addPicture("baatar3.jpg", '');

@@ -5,15 +5,15 @@ const Page: FC<any> = ({ page }: { page: PageData }): ReactElement => {
 
   let t_w = page.icon_w + page.margin;
   let t_h = page.icon_h + page.margin;
-  let w1 = page.icon_w - page.w;
-  let h1 = page.icon_h - page.h;
+  let w1 = page.icon_w - page.label_w;
+  let h1 = page.icon_h - page.label_h;
 
   return (
     <div>
 
       <div style={{clear: "left",float:"left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>
         <div id="icon" style={{margin:"auto",position:"relative",width:page.icon_w,height:page.icon_h,backgroundImage: `url(${page.dir + '/icons/' + page.label_img})`,}}>
-          <div style={{position:"absolute",top: h1,width: w1, textAlign: "right", font: "bold "+page.size+"px Times New Roman",color: page.c}}>
+          <div style={{position:"absolute",top: h1,width: w1, textAlign: "right", font: "bold "+page.size+"px Times New Roman",color: page.label_color}}>
             {page.label}
           </div>
         </div>

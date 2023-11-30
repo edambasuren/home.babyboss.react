@@ -7,14 +7,14 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("russia", "label.jpg");
+  let album = new AlbumData("russia", "label.jpg", "#f7f755");
   let pg;
 
-  pg = album.addPage(t('Itkutsk'),45,5,"#f7f755");
+  pg = album.addPage(t('Itkutsk'),45,5);
   pg.addPicture("irkutsk1.jpg", '');
   pg.addPicture("irkutsk2.jpg", '');
 
-  pg = album.addPage(t('Moscow'),45,5,"#f7f755");
+  pg = album.addPage(t('Moscow'),45,5);
   pg.addPicture("moscow1.jpg", '');
   pg.addPicture("moscow2.jpg", '');
   pg.addPicture("moscow3.jpg", '');
@@ -26,19 +26,19 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   pg.addPicture("moscow9.jpg", '');
   pg.addPicture("moscow10.jpg", '');
 
-  pg = album.addPage(t('Abramtsevo'),45,5,"#f7f755");
+  pg = album.addPage(t('Abramtsevo'),45,5);
   pg.addPicture("abramtsevo1.jpg", '');
   pg.addPicture("abramtsevo2.jpg", '');
   pg.addPicture("abramtsevo3.jpg", '');
 
-  pg = album.addPage(t('Hemelnitsk'),45,5,"#f7f755");
+  pg = album.addPage(t('Hemelnitsk'),45,5);
   pg.addPicture("hemelnitsk1.jpg", '');
 
-  pg = album.addPage(t('StPetersburg'),45,5,"#f7f755");
+  pg = album.addPage(t('StPetersburg'),45,5);
   pg.addPicture("petersburg1.jpg", '');
   pg.addPicture("petersburg2.jpg", '');
 
-  pg = album.addPage(t('UstIlimsk'),45,5,"#f7f755");
+  pg = album.addPage(t('UstIlimsk'),45,5);
   pg.addPicture("ust_ilimsk1.jpg", '');
   pg.addPicture("ust_ilimsk2.jpg", '');
 

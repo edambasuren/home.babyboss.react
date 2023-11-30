@@ -7,10 +7,10 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("other", "label.jpg");
+  let album = new AlbumData("other", "label.jpg", "blue", 18);
   let pg;
 
-  pg = album.addPage(t('Italy'),45,10,"blue",18);
+  pg = album.addPage(t('Italy'),45,10);
   pg.addPicture("italy1.jpg", t('BayarAndPetreTriesteItaly1994'));
   pg.addPicture("italy2.jpg", t('VeniceItaly1995'));
   pg.addPicture("italy3.jpg", t('VeniceItaly1995'));
@@ -22,7 +22,7 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   pg.addPicture("italy9.jpg", t('HomeTriesteItaly1994'));
   pg.addPicture("italy10.jpg", t('DiplomaCourseICTP_TriesteItaly1994'));
 
-  pg = album.addPage(t('Austria'),45,10,"blue",18);
+  pg = album.addPage(t('Austria'),45,10);
   pg.addPicture("austria1.jpg", t('AtJargalHomeViennaAustria1994'));
   pg.addPicture("austria2.jpg", t('AtJargalHomeViennaAustria1994'));
   pg.addPicture("austria3.jpg", t('AtJargalHomeViennaAustria1994'));
