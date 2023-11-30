@@ -118,7 +118,10 @@
 .main {
   text-align: left;
   min-height: 650px;
-  margin-left: 156px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 654px;
+  float:left;
 }
 
 .main #header {

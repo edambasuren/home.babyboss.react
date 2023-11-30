@@ -11,7 +11,7 @@ const Page: FC<any> = ({ page }: { page: PageData }): ReactElement => {
   return (
     <div>
 
-      <div style={{float:"left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>
+      <div style={{clear: "left",float:"left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>
         <div id="icon" style={{margin:"auto",position:"relative",width:page.icon_w,height:page.icon_h,backgroundImage: `url(${page.dir + '/icons/' + page.label_img})`,}}>
           <div style={{position:"absolute",top: h1,width: w1, textAlign: "right", font: "bold "+page.size+"px Times New Roman",color: page.c}}>
             {page.label}
@@ -23,8 +23,8 @@ const Page: FC<any> = ({ page }: { page: PageData }): ReactElement => {
         <div key={i}>
           {i%4 == 0 && i!=0 && 
             <div id="icon" style={{float: "left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>
-            <img src={"/" + page.dir + '/icons/empty.gif'} style={{maxWidth:page.icon_w,maxHeight:page.icon_w,}}/>
-          </div>
+              <img src={"/" + page.dir + '/icons/empty.gif'} style={{maxWidth:page.icon_w,maxHeight:page.icon_w,}}/>
+            </div>
           }
 
           <div id="icon" style={{float: "left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>

@@ -70,10 +70,29 @@ i18n
           ClickToSeeScripts: 'Click to see scripts',
           /* albums  */
           ClickToSeeLargerPictures: 'Click to see larger pictures',
-          ShayИркутск1982: "Shay, Иркутск, 1982",
 
+          ShayIrkutsk1982: "Shay, Irkutsk, 1982",
+          ShayUlanbaatar10YearOld: "Shay, Ulanbaatar, 10 year old",
+          ShayNairamdalSummerCamp1975: "Shay, Nairamdal summer camp, 1975",
+          Shay3YearOld: "Shay, 3 year old",
 
+          Bayar1982: "Bayar, 1982",
+          Bayar1YearOld: "Bayar, 1 year old",
+          Bayar4YearOld: "Bayar, 4 year old",
+          BayarMoscow7YearOld: "Bayar, Moscow, 7 year old",
+        
+          Munk2004: "Munk, 2004",
+          MunkMongolia3YearOld: "Munk, Mongolia, 3 year old",
+          Munk1YearOld: "Munk, 1 year old",
+          MunkSyracuse10YearOld: "Munk, Syracuse, 10 year old",
 
+          ShaysParents: "Shay\'s parents",
+          ShaysMom: "Shay\s mom",
+          ShaysDad: "Shay\s dad",
+          
+          BayarsParents: "Bayar\'s parents",
+          BayarsMom: "Bayar\'s mom",
+          BayarsDad: "Bayar\'s dad",
 
         },
       },
@@ -131,7 +150,24 @@ i18n
           SomeJavaScriptExamples: 'Зарим Жаваскрипт Жишээнүүд',
           ClickToSeeScripts: 'Скриптүүд харахий тулд товч дарна уу',
           ClickToSeeLargerPictures: 'Зурган дээр дарж томсгоно уу',
-          ShayИркутск1982: "Ишээ, Эрхүү хот, 1982",
+          ShayIrkutsk1982: "Ишээ, Эрхүү хот, 1982",
+          ShayUlanbaatar10YearOld: "Ишээ, Улаанбаатар, 10 настай",
+          ShayNairamdalSummerCamp1975: "Ишээ, Найрамдал зуслан, 1975",
+          Shay3YearOld: "Ишээ, 3 настай",
+          Bayar1982: "Баяраа, 1982",
+          Bayar1YearOld: "Баяраа, 1 настай",
+          Bayar4YearOld: "Баяраа, 4 настай",
+          BayarMoscow7YearOld: "Баяраа, Москва, 7 настай",
+          Munk2004: "Мөнхөө 2004",
+          MunkMongolia3YearOld: "Мөнхөө, Монгол, 3 настай",
+          Munk1YearOld: "Мөнхөө, 1 настай",
+          MunkSyracuse10YearOld: "Мөнхөө, Сиракуз, 10 настай",
+          ShaysParents: "Ишээгийн эцэг эх",
+          ShaysMom: "Ишээгийн ээж",
+          ShaysDad: "Ишээгийн аав",
+          BayarsParents: "Баярын эцэг эх",
+          BayarsMom: "Баярын ээж",
+          BayarsDad: "Баярын аав",
 
 
 

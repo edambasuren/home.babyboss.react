@@ -17,6 +17,8 @@ const Layout: FC<PropsWithChildren> = () => {
           <Outlet />
 
         </div>
+
+        <div style={{clear: "both"}}></div>
       </div>
 
       <div id="body_bottom"></div>
