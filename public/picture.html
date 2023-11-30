@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+<body>
+
+   <div id="mainDiv" style="background: #3c6652;padding: 15px;">
+      <img id="mainImg" />
+      
+      <div id="textDiv" style="text-align: right;font: bold 24px Times New Roman, Times, serif;margin-top: 20px;color: #fffdbd;">
+      </div>
+   
+   </div>
+
+</body>
+<script defer>
+   const url = new URL(window.location.href);
+   const src = url.searchParams.get('src');
+   const text = url.searchParams.get('text');
+
+   var mainImg = document.getElementById("mainImg");
+   mainImg.src = src;
+
+   mainImg.onload = () => {
+      var mainDiv = document.getElementById("mainDiv");
+      mainDiv.style.width = mainImg.clientWidth+"px";
+      mainDiv.style.height = (mainImg.clientHeight + 55)+"px";
+
+      var textDiv = document.getElementById("textDiv");
+      textDiv.innerText = text;
+
+      window.resizeTo(mainImg.clientWidth+65, mainImg.clientHeight+175);
+   }
+</script>
+</html>

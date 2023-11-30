@@ -1,6 +1,6 @@
 import { ReactElement, FC } from "react";
 import { useTranslation } from "react-i18next";
-import { LANGUAGES } from "../constants";
+import { LANGUAGES } from "../utils/Languages";
 import "../i18n";
  
 const Header: FC<any> = (): ReactElement => {

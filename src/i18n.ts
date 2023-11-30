@@ -68,6 +68,10 @@ i18n
           MyNameIsMunk: 'My name is Munk. My hobby is bicycling. I also like to play soccer.',
           SomeJavaScriptExamples: 'Some JavaScript Examples',
           ClickToSeeScripts: 'Click to see scripts',
+          /* albums  */
+          ClickToSeeLargerPictures: 'Click to see larger pictures',
+          ShayИркутск1982: "Shay, Иркутск, 1982",
+
 
 
 
@@ -126,6 +130,9 @@ i18n
           MyNameIsMunk: 'Миний нэр Мөнхөө. Би дугуй унах дуртай. Би мөн хөл бөмбөг тоглох дуртай.',
           SomeJavaScriptExamples: 'Зарим Жаваскрипт Жишээнүүд',
           ClickToSeeScripts: 'Скриптүүд харахий тулд товч дарна уу',
+          ClickToSeeLargerPictures: 'Зурган дээр дарж томсгоно уу',
+          ShayИркутск1982: "Ишээ, Эрхүү хот, 1982",
+
 
 
 

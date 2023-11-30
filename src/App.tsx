@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Shay from "./pages/Shay";
 import Bayar from "./pages/Bayar";
 import Munk from "./pages/Munk";
+import FamilyPhoto from "./pages/FamilyPhoto"
 import './App.css';
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
             <Route path="/shay" element={<Shay />} />
             <Route path="/bayar" element={<Bayar />} />
             <Route path="/munk" element={<Munk />} />
+
+            <Route path="/family_photo" element={<FamilyPhoto />} />
+
+            
 
 
 

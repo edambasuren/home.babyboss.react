@@ -148,3 +148,6 @@
 /**************     munk      **************/
 #munk table#t1 td{padding: 40px;}
 #munk table#t2 td{padding: 30px;}
+
+/**************     album      **************/
+#main_album  #title{font: bold 28px Garamond, 'MS Serif';text-align: center;line-height: 50px;}
