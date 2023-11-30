@@ -94,6 +94,13 @@ i18n
           BayarsMom: "Bayar\'s mom",
           BayarsDad: "Bayar\'s dad",
 
+          InMongolia: 'In Mongolia',
+          Family: "Family",
+          Bayangol: "Bayangol",
+          BataaOyunFamily: "Bataa & Oyun family",
+          BaatarAriunaaFamily: "Baatar & Ariunaa family",
+
+
         },
       },
       mn: {
@@ -168,6 +175,11 @@ i18n
           BayarsParents: "Баярын эцэг эх",
           BayarsMom: "Баярын ээж",
           BayarsDad: "Баярын аав",
+          InMongolia: 'Монголд',
+          Family: "Төрөл садан",
+          Bayangol: "Баянгол",
+          BataaOyunFamily: "Батаа Оюуны гэр бүл",
+          BaatarAriunaaFamily: "Баатар Ариунаагийн гэр бүл",
 
 
 

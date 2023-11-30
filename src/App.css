@@ -97,7 +97,7 @@
 
 /** submenu **/
 #left_menu ul {
-  display: none;
+  /*display: none;*/
 }
 
 #left_menu ul li {

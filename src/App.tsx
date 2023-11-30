@@ -5,6 +5,15 @@ import Shay from "./pages/Shay";
 import Bayar from "./pages/Bayar";
 import Munk from "./pages/Munk";
 import FamilyPhoto from "./pages/FamilyPhoto"
+import FamilyPhotoMongolia from "./pages/FamilyPhotoMongolia"
+import FamilyPhotoRussia from "./pages/FamilyPhotoRussia"
+import FamilyPhotoUSA from "./pages/FamilyPhotoUSA"
+import FamilyPhotoOther from "./pages/FamilyPhotoOther"
+import FamilyEvents from "./pages/FamilyEvents"
+import Friends from "./pages/Friends"
+import Khulan from "./pages/Khulan"
+import Naadam2007 from "./pages/Naadam2007"
+
 import './App.css';
 
 function App() {
@@ -20,9 +29,15 @@ function App() {
 
             <Route path="/family_photo" element={<FamilyPhoto />} />
 
+            <Route path="/family_photo_mongolia" element={<FamilyPhotoMongolia />} />
+            <Route path="/FamilyPhotoRussia" element={<FamilyPhotoRussia />} />
+            <Route path="/family_photo_usa" element={<FamilyPhotoUSA />} />
+            <Route path="/family_photo_other" element={<FamilyPhotoOther />} />
             
-
-
+            <Route path="/family_events" element={<FamilyEvents />} />
+            <Route path="/friends" element={<Friends />} />
+            <Route path="/khulan" element={<Khulan />} />
+            <Route path="/naadam_2007" element={<Naadam2007 />} />
 
           </Route>
         </Routes>

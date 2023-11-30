@@ -1,5 +1,5 @@
 import { ReactElement, FC, useState, MouseEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation  } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../i18n";
  
@@ -8,6 +8,17 @@ const LeftMenu: FC<any> = (): ReactElement => {
   const { i18n, t } = useTranslation();
 
   const [source, setSource] = useState("/images/bboss_0.jpg");
+
+
+  const location = useLocation();
+  let subalbumDisplayInit = "none";
+  let arrowImgInit = '/images/closed.gif';
+  if (location.pathname.startsWith("/family_photo_")) {
+    subalbumDisplayInit = "block";
+    arrowImgInit = '/images/opened.gif';
+  }
+  const [subalbumDisplay, setSubalbumDisplay] = useState(subalbumDisplayInit);
+  const [arrowImg, setArrowImg] = useState(arrowImgInit);
 
   const navigate = useNavigate();
 
@@ -21,6 +32,11 @@ const LeftMenu: FC<any> = (): ReactElement => {
     setSource('/images/bboss_' + t + '.jpg');
   };
 
+  const toggleSubAlbum = () => {
+    setSubalbumDisplay((subalbumDisplay=="none") ? "block": "none");
+    setArrowImg((subalbumDisplay=="none") ? '/images/opened.gif': '/images/closed.gif');
+  };
+
   return (
     <div id='left'>
 
@@ -31,18 +47,18 @@ const LeftMenu: FC<any> = (): ReactElement => {
         <li><a href='/munk'>{t('Munk')}</a></li>
         <li><a href='/family_photo'>{t('FamilyPictures')}</a></li>
 
-	      <li id='album'><img src='/images/closed.gif' />{t('FamilyAlbum')} </li>
-        <ul id='subalbum'>
-          <li><a href='family_photo_mongolia.php'>{t('Mongolia')}</a></li>
-          <li><a href='family_photo_russia.php'>{t('Russia')}</a></li>
-          <li><a href='family_photo_usa.php'>{t('USA')}</a></li>
-          <li><a href='family_photo_other.php'>{t('Other')}</a></li>
+	      <li id='album' onClick={toggleSubAlbum}><img src={arrowImg} />{t('FamilyAlbum')} </li>
+        <ul id='subalbum' style={{display:subalbumDisplay}}>
+          <li><a href='/family_photo_mongolia'>{t('Mongolia')}</a></li>
+          <li><a href='/family_photo_russia'>{t('Russia')}</a></li>
+          <li><a href='/family_photo_usa'>{t('USA')}</a></li>
+          <li><a href='/family_photo_other'>{t('Other')}</a></li>
         </ul>
 	
-        <li><a href='family_events.php'>{t('FamilyEvents')}</a></li>
-        <li><a href='friends.php'>{t('Friends')}</a></li>
-        <li><a href='khulan.php'>{t('Khulan')}</a></li>
-        <li><a href='naadam_2007.php'>{t('Naadam2007')}</a></li>
+        <li><a href='/family_events'>{t('FamilyEvents')}</a></li>
+        <li><a href='/friends'>{t('Friends')}</a></li>
+        <li><a href='/khulan'>{t('Khulan')}</a></li>
+        <li><a href='/naadam_2007'>{t('Naadam2007')}</a></li>
 	      <li className='last'><a> &nbsp; </a></li>
       </ul>
 
