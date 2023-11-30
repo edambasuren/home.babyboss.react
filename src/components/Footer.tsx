@@ -19,9 +19,9 @@ const Footer: FC<any> = (): ReactElement => {
 
           <table id="footer" style={tableStyle}><tbody>
             <tr>
-              <td align="center"><img src='images/apache2.gif' /></td>
-              <td align="center"><img src='images/php.gif' /></td>
-              <td align="center"><img src='images/mysql.gif' /></td>
+              <td align="center"><img src='/images/apache2.gif' /></td>
+              <td align="center"><img src='/images/php.gif' /></td>
+              <td align="center"><img src='/images/mysql.gif' /></td>
             </tr>
           </tbody></table>
           <br />
