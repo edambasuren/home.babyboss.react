@@ -30,7 +30,7 @@ function App() {
             <Route path="/family_photo" element={<FamilyPhoto />} />
 
             <Route path="/family_photo_mongolia" element={<FamilyPhotoMongolia />} />
-            <Route path="/FamilyPhotoRussia" element={<FamilyPhotoRussia />} />
+            <Route path="/family_photo_russia" element={<FamilyPhotoRussia />} />
             <Route path="/family_photo_usa" element={<FamilyPhotoUSA />} />
             <Route path="/family_photo_other" element={<FamilyPhotoOther />} />
             

@@ -37,16 +37,6 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   pg.addPicture("bayar_parents2.jpg", t('BayarsMom'));
   pg.addPicture("bayar_parents3.jpg", t('BayarsDad'))
 
-
-  /*
-
-$pg = $alb->add(($_SESSION['lang']!='mon')?"Bayar\'s Parents":"Баярын <br>эцэг эх",45,10,"#0ccdc1");
-$pg->add("bayar_parents1.jpg", ($_SESSION['lang']!='mon')?"Bayar\s parents":"Баярын эцэг эх");
-$pg->add("bayar_parents2.jpg", ($_SESSION['lang']!='mon')?"Bayar\s mom":"Баярын ээж");
-$pg->add("bayar_parents3.jpg", ($_SESSION['lang']!='mon')?"Bayar\s dad":"Баярын аав");
-*/
-
-
 return (
     <div id='main_album' className='main'>
 

@@ -100,6 +100,13 @@ i18n
           BataaOyunFamily: "Bataa & Oyun family",
           BaatarAriunaaFamily: "Baatar & Ariunaa family",
 
+          InRussia: 'In Russia',
+          Itkutsk: "Itkutsk",
+          Moscow: "Moscow",
+          Abramtsevo: "Abramtsevo",
+          Hemelnitsk: "Hemelnitsk",
+          StPetersburg: "St Petersburg",
+          UstIlimsk: "Ust-Ilimsk",
 
         },
       },
@@ -180,9 +187,13 @@ i18n
           Bayangol: "Баянгол",
           BataaOyunFamily: "Батаа Оюуны гэр бүл",
           BaatarAriunaaFamily: "Баатар Ариунаагийн гэр бүл",
-
-
-
+          InRussia: 'Оросод',
+          Itkutsk: "Эрхүү",
+          Moscow: "Москва",
+          Abramtsevo: "Абрамцево",
+          Hemelnitsk: "Хмелницкий",
+          StPetersburg: "Петербург",
+          UstIlimsk: "Усть-Илимск",
 
         },
       },
