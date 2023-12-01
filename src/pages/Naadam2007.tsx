@@ -7,42 +7,67 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("family", "label.jpg", "#0ccdc1");
+  let album = new AlbumData("naadam_2007", "label.jpg", "black");
   let pg;
 
-  pg = album.addPage(t('Shay'),45,10);
-  pg.addPicture("shay1.jpg", t('ShayIrkutsk1982'));
-  pg.addPicture("shay2.jpg", t('ShayUlanbaatar10YearOld'));
-  pg.addPicture("shay3.jpg", t('ShayNairamdalSummerCamp1975'));
-  pg.addPicture("shay4.jpg", t('Shay3YearOld'));
+  pg = album.addPage(t('NaadamWashingtonDCJuly15_2007Br'),75,5);
+  pg.addPicture("naadam_1.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_2.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_3.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_4.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_5.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_6.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_7.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_8.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_9.jpg", t('NaadamWashingtonDCJuly15_2007'));
 
-  pg = album.addPage(t('Bayar'),45,10);
-  pg.addPicture("bayar1.jpg", t('Bayar1982'));
-  pg.addPicture("bayar2.jpg", t('Bayar1YearOld'));
-  pg.addPicture("bayar3.jpg", t('Bayar4YearOld'));
-  pg.addPicture("bayar4.jpg", t('BayarMoscow7YearOld'));
+  pg.addPicture("naadam_10.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_11.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_12.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_13.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_14.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_15.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_16.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_17.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_18.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_19.jpg", t('NaadamWashingtonDCJuly15_2007'));
 
-  pg = album.addPage(t('Munk'),45,10);
-  pg.addPicture("munk1.jpg", t('Munk2004'));
-  pg.addPicture("munk2.jpg", t('MunkMongolia3YearOld'));
-  pg.addPicture("munk3.jpg", t('Munk1YearOld'));
-  pg.addPicture("munk4.jpg", t('MunkSyracuse10YearOld'));
+  pg.addPicture("naadam_20.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_21.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_22.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_23.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_24.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_25.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_26.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_27.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_28.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_29.jpg", t('NaadamWashingtonDCJuly15_2007'));
 
-  pg = album.addPage(t('ShaysParents'),45,10);
-  pg.addPicture("shay_parents1.jpg", t('ShaysMom'));
-  pg.addPicture("shay_parents2.jpg", t('ShaysDad'));
+  pg.addPicture("naadam_30.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_31.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_32.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_33.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_34.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_35.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_36.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_37.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_38.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_39.jpg", t('NaadamWashingtonDCJuly15_2007'));
 
-  pg = album.addPage(t('BayarsParents'),45,10);
-  pg.addPicture("bayar_parents1.jpg", t('BayarsParents'));
-  pg.addPicture("bayar_parents2.jpg", t('BayarsMom'));
-  pg.addPicture("bayar_parents3.jpg", t('BayarsDad'))
-
+  pg.addPicture("naadam_40.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_41.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_42.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_43.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_44.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_45.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_46.jpg", t('NaadamWashingtonDCJuly15_2007'));
+  pg.addPicture("naadam_47.jpg", t('NaadamWashingtonDCJuly15_2007'));
 
 return (
     <div id='main_album' className='main'>
 
       <div id="title">
-        {t('FamilyPictures')}
+        {t('NaadamWashingtonDCJuly15_2007')}
       </div>
 
       <hr  color = "#000077" style={{width:"100%"}} />

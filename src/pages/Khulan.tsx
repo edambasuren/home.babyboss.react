@@ -10,7 +10,7 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   let album = new AlbumData("khulan", "label.jpg", "black");
   let pg;
 
-  pg = album.addPage(t('КhulansBirthday'),45,5);
+  pg = album.addPage(t('KhulansBirthday'),45,5);
   pg.addPicture("khulan_birthday1.jpg", t('TorontoCanadaApril20_2008'));
   pg.addPicture("khulan_birthday2.jpg", t('TorontoCanadaApril20_2008'));
   pg.addPicture("khulan_birthday3.jpg", t('TorontoCanadaApril20_2008'));

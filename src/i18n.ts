@@ -217,9 +217,11 @@ i18n
           Julan: "Julan",
           JulanAndEvanSyracuseUniversityJune2003FS: "Julan and Evan (in the front seat), Syracuse University, June 2003",
           JulanAndEvanSyracuseUniversityJune2003: "Julan and Evan, Syracuse University, June 2003",
-          КhulansBirthday: "Кhulan's<br> birthday",
+          KhulansBirthday: "Кhulan's<br> birthday",
           TorontoCanadaApril20_2008: "Toronto Canada, April 20, 2008",
 
+          NaadamWashingtonDCJuly15_2007Br:"Naadam<br>Washington DC<br>15 July 2007",
+          NaadamWashingtonDCJuly15_2007: "Naadam, Washington DC, 15 July 2007",
 
         },
       },
@@ -414,9 +416,12 @@ i18n
           Julan: "Жюлан",
           JulanAndEvanSyracuseUniversityJune2003FS: "Жюлан Еван хоёр (эхний эгнээнд), Сиракузын Их сургууль, 2003 оны 6 сар",
           JulanAndEvanSyracuseUniversityJune2003: "Жюлан Еван хоёр, Сиракузын Их сургууль, 2003 оны 6 сар",
-
-          КhulansBirthday: "Хулангийн<br> төрсөн өдөр",
+          KhulansBirthday: "Хулангийн<br> төрсөн өдөр",
           TorontoCanadaApril20_2008: "Торонто Канад, 2008 оны 4 сарын 20нд",
+
+          NaadamWashingtonDCJuly15_2007Br: "Наадам<br>Вашингтон хот<br>2008 оны 7 сарын 15",
+          NaadamWashingtonDCJuly15_2007: 'Наадам, АНУ-ын нийслэл Вашингтон хотод, 2008 оны 7 сарын 15',
+
 
         },
       },
