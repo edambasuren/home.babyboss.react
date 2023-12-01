@@ -28,7 +28,7 @@ const Page: FC<any> = ({ page }: { page: PageData }): ReactElement => {
           <div id="icon" style={{float: "left",width:t_w,height:t_h,display: "flex",justifyContent: "center", alignItems: "center",}}>
             <img src={"/" + page.dir + '/' + picture.src} style={{border: "1px solid black",maxWidth:page.icon_w,maxHeight:page.icon_w,}}
             onClick={()=> window.open(
-              'picture.html?src=/'+page.dir+'/'+picture.src+'&text='+picture.text,
+              '/picture.html?src=/'+page.dir+'/'+picture.src+'&text='+picture.text,
               'NewWin',
               'toolbar=no,status=no')}
              />
