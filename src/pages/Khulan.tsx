@@ -7,51 +7,83 @@ const FamilyPhoto: FC<any> = (): ReactElement => {
   
   const { i18n, t } = useTranslation();
 
-  let album = new AlbumData("family", "label.jpg", "#0ccdc1");
+  let album = new AlbumData("khulan", "label.jpg", "black");
   let pg;
 
-  pg = album.addPage(t('Shay'),45,10);
-  pg.addPicture("shay1.jpg", t('ShayIrkutsk1982'));
-  pg.addPicture("shay2.jpg", t('ShayUlanbaatar10YearOld'));
-  pg.addPicture("shay3.jpg", t('ShayNairamdalSummerCamp1975'));
-  pg.addPicture("shay4.jpg", t('Shay3YearOld'));
+  pg = album.addPage(t('КhulansBirthday'),45,5);
+  pg.addPicture("khulan_birthday1.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday2.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday3.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday4.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday5.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday6.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday7.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday8.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday9.jpg", t('TorontoCanadaApril20_2008'));
 
-  pg = album.addPage(t('Bayar'),45,10);
-  pg.addPicture("bayar1.jpg", t('Bayar1982'));
-  pg.addPicture("bayar2.jpg", t('Bayar1YearOld'));
-  pg.addPicture("bayar3.jpg", t('Bayar4YearOld'));
-  pg.addPicture("bayar4.jpg", t('BayarMoscow7YearOld'));
+  pg.addPicture("khulan_birthday10.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday11.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday12.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday13.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday14.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday15.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday16.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday17.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday18.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday19.jpg", t('TorontoCanadaApril20_2008'));
 
-  pg = album.addPage(t('Munk'),45,10);
-  pg.addPicture("munk1.jpg", t('Munk2004'));
-  pg.addPicture("munk2.jpg", t('MunkMongolia3YearOld'));
-  pg.addPicture("munk3.jpg", t('Munk1YearOld'));
-  pg.addPicture("munk4.jpg", t('MunkSyracuse10YearOld'));
+  pg.addPicture("khulan_birthday20.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday21.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday22.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday23.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday24.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday25.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday26.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday27.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday28.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday29.jpg", t('TorontoCanadaApril20_2008'));
 
-  pg = album.addPage(t('ShaysParents'),45,10);
-  pg.addPicture("shay_parents1.jpg", t('ShaysMom'));
-  pg.addPicture("shay_parents2.jpg", t('ShaysDad'));
+  pg.addPicture("khulan_birthday30.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday31.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday32.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday33.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday34.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday35.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday36.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday37.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday38.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday39.jpg", t('TorontoCanadaApril20_2008'));
 
-  pg = album.addPage(t('BayarsParents'),45,10);
-  pg.addPicture("bayar_parents1.jpg", t('BayarsParents'));
-  pg.addPicture("bayar_parents2.jpg", t('BayarsMom'));
-  pg.addPicture("bayar_parents3.jpg", t('BayarsDad'))
+  pg.addPicture("khulan_birthday40.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday41.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday42.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday43.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday44.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday45.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday46.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday47.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday48.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday49.jpg", t('TorontoCanadaApril20_2008'));
 
+  pg.addPicture("khulan_birthday50.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday51.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday52.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday53.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday54.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday55.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday56.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday57.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday58.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday59.jpg", t('TorontoCanadaApril20_2008'));
 
-  /*
-
-$pg = $alb->add(($_SESSION['lang']!='mon')?"Bayar\'s Parents":"Баярын <br>эцэг эх",45,10,"#0ccdc1");
-$pg->add("bayar_parents1.jpg", ($_SESSION['lang']!='mon')?"Bayar\s parents":"Баярын эцэг эх");
-$pg->add("bayar_parents2.jpg", ($_SESSION['lang']!='mon')?"Bayar\s mom":"Баярын ээж");
-$pg->add("bayar_parents3.jpg", ($_SESSION['lang']!='mon')?"Bayar\s dad":"Баярын аав");
-*/
-
+  pg.addPicture("khulan_birthday60.jpg", t('TorontoCanadaApril20_2008'));
+  pg.addPicture("khulan_birthday61.jpg", t('TorontoCanadaApril20_2008'));
 
 return (
     <div id='main_album' className='main'>
 
       <div id="title">
-        {t('FamilyPictures')}
+        {t('Khulan')}
       </div>
 
       <hr  color = "#000077" style={{width:"100%"}} />

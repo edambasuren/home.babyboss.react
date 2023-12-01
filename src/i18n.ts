@@ -217,11 +217,8 @@ i18n
           Julan: "Julan",
           JulanAndEvanSyracuseUniversityJune2003FS: "Julan and Evan (in the front seat), Syracuse University, June 2003",
           JulanAndEvanSyracuseUniversityJune2003: "Julan and Evan, Syracuse University, June 2003",
-
-
-
-
-
+          КhulansBirthday: "Кhulan's<br> birthday",
+          TorontoCanadaApril20_2008: "Toronto Canada, April 20, 2008",
 
 
         },
@@ -418,10 +415,8 @@ i18n
           JulanAndEvanSyracuseUniversityJune2003FS: "Жюлан Еван хоёр (эхний эгнээнд), Сиракузын Их сургууль, 2003 оны 6 сар",
           JulanAndEvanSyracuseUniversityJune2003: "Жюлан Еван хоёр, Сиракузын Их сургууль, 2003 оны 6 сар",
 
-
-
-
-
+          КhulansBirthday: "Хулангийн<br> төрсөн өдөр",
+          TorontoCanadaApril20_2008: "Торонто Канад, 2008 оны 4 сарын 20нд",
 
         },
       },
